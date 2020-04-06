@@ -1,0 +1,15 @@
+name: bnb-msg
+main: net.bnbdiscord.bnbmsg.BnbMsgPlugin
+version: ${project.version}
+commands:
+  tell:
+    aliases:
+      - msg
+      - w
+    description: Fancy /tell
+    usage: /<command> <player> <message...>
+  reply:
+    aliases:
+      - r
+    description: Reply to the last message
+    usage: /<command> <message...>
